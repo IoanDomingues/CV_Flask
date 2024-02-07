@@ -29,7 +29,7 @@ jobs:
             git clone https://github.com/IoanDomingues/CV_Flask
             # Vérifier si le répertoire de destination existe
             if [ "$(ls -A ./flask)" ]; then
-              rsync -r ./CV_Flask/ ./flask
+              rsync -r ./CV_Flask/ ./flask3
               rm -rf ./CV_Flask
             else
               echo "Le répertoire flask de destination sur votre serveur n'existe pas"
